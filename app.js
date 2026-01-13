@@ -29,8 +29,14 @@
 
 const role = prompt("Masukkan role akun?").toLowerCase();
 
-if (role == "admin" || role == "spv") {
-  console.log("Akses diterima");
-} else {
+// if (role == "admin" || role == "spv") {
+//   console.log("Akses diterima");
+// } else {
+//   console.log("Akses ditolak");
+// }
+
+if (role !== "admin") {
   console.log("Akses ditolak");
+} else {
+  console.log("Akses diterima");
 }
