@@ -27,7 +27,7 @@
 //   console.log("Password tidak memenuhi syarat");
 // }
 
-const role = prompt("Masukkan role akun?").toLowerCase();
+// const role = prompt("Masukkan role akun?").toLowerCase();
 
 // if (role == "admin" || role == "spv") {
 //   console.log("Akses diterima");
@@ -35,8 +35,22 @@ const role = prompt("Masukkan role akun?").toLowerCase();
 //   console.log("Akses ditolak");
 // }
 
-if (role !== "admin") {
-  console.log("Akses ditolak");
-} else {
-  console.log("Akses diterima");
+// if (role !== "admin") {
+//   console.log("Akses ditolak");
+// } else {
+//   console.log("Akses diterima");
+// }
+
+const balonku = prompt("Masukkan warna balon?").toLowerCase();
+
+switch (balonku) {
+  case "merah":
+    console.log("Warna balon merah");
+    break;
+  case "hijau":
+    console.log("Doooorrrrr");
+    break;
+  default:
+    console.log("Bukan balon saya");
+    break;
 }
