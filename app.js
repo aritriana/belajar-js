@@ -41,16 +41,21 @@
 //   console.log("Akses diterima");
 // }
 
-const balonku = prompt("Masukkan warna balon?").toLowerCase();
+// const balonku = prompt("Masukkan warna balon?").toLowerCase();
 
-switch (balonku) {
-  case "merah":
-    console.log("Warna balon merah");
-    break;
-  case "hijau":
-    console.log("Doooorrrrr");
-    break;
-  default:
-    console.log("Bukan balon saya");
-    break;
+// switch (balonku) {
+//   case "merah":
+//     console.log("Warna balon merah");
+//     break;
+//   case "hijau":
+//     console.log("Doooorrrrr");
+//     break;
+//   default:
+//     console.log("Bukan balon saya");
+//     break;
+// }
+
+for (let i = 1; i <=10 ; i++){
+  console.log(i);
+  console.log('ari ganteng')
 }
